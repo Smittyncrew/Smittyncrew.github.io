@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="todo.html">To-do List</a>
+        <a href="resume.html">Resume</a>
+    </nav>
+    
+    <h1>To-do List</h1>
+    <form id="todo-form"> 
+        <input type="text" id="todo-input" placeholder="Enter a task..."> <!--Text input line where user will submit tasts-->
+        <button type="submit">Add</button> <!--Submit button for new tasks-->
+    </form>
+    <ul id="todo-list"></ul>
+    <script src="scripts.js"></script>
+    <p style="text-align: center; color: lightgray;">Data stored locally.</p>
+</body>
+</html>

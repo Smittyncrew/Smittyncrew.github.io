@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matthew Smithers - Resume</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h1 {
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+        h2 {
+            font-size: 22px;
+            margin: 30px 0 10px;
+        }
+        h3 {
+            font-size: 18px;
+            margin: 20px 0 5px;
+        }
+        p, ul, li {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+        .collapsible {
+            cursor: pointer;
+            padding: 0.5em 1em;
+            border: 1px solid #ccc;
+            background-color: #f1f1f1;
+            margin-bottom: 0.5em;
+            border-radius: 5px;
+            font-weight: bold;
+            position: relative;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        .collapsible:hover {
+            background-color: #e0e0e0;
+        }
+
+        .collapsible:after {
+            content: '\25B6'; /* Unicode right-pointing triangle */
+            position: absolute;
+            right: 1em;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .collapsible.active:after {
+            content: '\25BC'; /* Unicode down-pointing triangle */
+        }
+
+
+        .content {
+            display: none;
+            overflow: hidden;
+            transition: max-height 0.2s ease-out;
+        }
+
+        .circular-frame {
+            border-radius: 50%;
+            width: 200px; /* Adjust the width to your preference */
+            height: 200px; /* Adjust the height to your preference */
+            object-fit: cover;
+            border: 5px solid #ccc; /* Adjust the border width and color to your preference */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            float: right;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="todo.html">To-do List</a>
+        <a href="resume.html">Resume</a>
+    </nav>
+
+    <h1>Matthew Smithers <img src="CircleFrame.png" alt="My Portrait" class="circular-frame"></h1>
+    <p>Email: smithers.matt97@hotmail.com</p>
+    <p>Phone(cell): 425-877-9415</p>
+    <p>LinkedIn Profile: <a href="https://www.linkedin.com/in/matthew-smithers-b57943194/" target="_blank">https://www.linkedin.com/in/matthew-smithers-b57943194/</a></p>
+
+    <h2>Objective</h2>
+    <p>Recent graduate with a BAS in Computing and Software Development seeking a software development position. Strong foundation in Java and Python, coupled with customer service and leadership experience, looking to transition into a role where technical and interpersonal skills can contribute to a software development team.</p>
+
+    <h2 class="collapsible">Education</h2>
+    <div class="content">
+    <h3>Lake Washington Institute of Technology, Kirkland, WA</h3>
+    <p>Bachelor of Applied Science (BAS) in Computing and Software Development, Summer 2022</p>
+    <h3>Cascadia Community College, Bothell, WA</h3>
+    <p>Associate Degree in Integrated Studies DCA, 2019</p>
+    </div>
+
+    <h2 class="collapsible">Skills</h2>
+    <div class="content">
+    <ul>
+        <li>Proficient in programming languages: Java, Python, HTML, and Javascript</li>
+        <li>Knowledge of databases: SQL and Microsoft Azure</li>
+        <li>Adept in operating and troubleshooting Microsoft Windows 7/8/10 with understanding of PC hardware functionality</li>
+        <li>Proficient in Microsoft Office programs (and Google equivalents) such as Word, Excel, PowerPoint, Outlook</li>
+        <li>Comfortable working in a Discord or Slack digital environment</li>
+        <li>Excellent verbal and written communication skills</li>
+        <li>Strong problem-solving abilities with experience in customer-facing roles</li>
+        <li>Can type up to 70 WPM on average</li>
+    </ul>
+    </div>
+
+    <h2 class="collapsible">Projects</h2>
+    <div class="content">
+    <h3>Frolf Finder</h3>
+    <p><a href="https://youtu.be/UfiIoKisb7A" target="_blank">https://youtu.be/UfiIoKisb7A</a></p>
+    <ul>
+        <li>Developed an Android app using Java and Microsoft Azure that displays local Frisbee Golf parks and allows users to record their scores</li>
+        <li>Implemented data storage for courses, scores, and accounts using Microsoft Azure Databases</li>
+        <li>Featured on the LWTech Student Portfolios website for Computing and Software Development (<a href="https://www.lwtech.edu/academics/computing-software-development/student-portfolios/" target="_blank">https://www.lwtech.edu/academics/computing-software-development/student-portfolios/</a>)</li>
+    </ul>
+    </div>
+
+    <h2 class="collapsible">Work Experience</h2>
+    <div class="content">
+    <h3>Sales Floor Specialist, Sherwin Williams, Bothell, WA, July 2020 - Present</h3>
+    <ul>
+        <li>Assisted customers by utilizing problem-solving skills to provide tailored solutions for various paint jobs</li>
+        <li>Managed and coordinated inventory and product deliveries, demonstrating strong organizational abilities</li>
+        <li>Conducted outbound calls, showcasing effective communication and relationship-building skills</li>
+        <li>Trusted with key responsibilities, reflecting reliability and trustworthiness</li>
+    </ul>
+    <h3>Sales Associate, The Home Depot, Bothell, WA, February 2019 - July 2020</h3>
+    <ul>
+        <li>Applied problem-solving and technical expertise to guide customers in completing home projects</li>
+        <li>Trained new associates on customer service and equipment operation, demonstrating leadership and mentoring capabilities</li>
+        <li>Collaborated with team members to achieve department goals, emphasizing teamwork and adaptability</li>
+    </ul>
+    <h3>Line Supervisor, United Parcel Service, Redmond, WA, September 2016 - April 2017</h3>
+    <ul>
+        <li>Coordinated 6-8 Package-car Loaders, demonstrating leadership and effective time management skills</li>
+        <li>Trained employees on efficient and safe work practices, showcasing strong communication and teaching abilities</li>
+    </ul>
+    <h3>Package-car Loader, United Parcel Service, Redmond, WA, June 2016 - September 2016</h3>
+    <ul>
+        <li>Collaborated with team members to complete tasks safely and efficiently, reflecting teamwork and adaptability</li>
+        <li>Assisted other workers across the building, demonstrating initiative and a strong work ethic</li>
+    </ul>
+    </div>
+
+    <script>
+        document.querySelectorAll(".collapsible").forEach((collapsible) => {
+            collapsible.addEventListener("click", function() {
+                this.classList.toggle("active");
+                let content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                    content.style.display = "none";
+                } else {
+                    content.style.display = "block";
+                }
+            });
+        });
+    </script>
+    
+</body>
+</html>
+

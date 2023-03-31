@@ -3,16 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To-do List</title>
+    <title>Home</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 3em;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 0.5em;
+    background-color: #333;
+    padding: 0.2em 0.5em;
+    
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+
+}
+
+
+        .intro-text {
+            font-family: 'Arial', sans-serif;
+            font-size: 1.2em;
+            line-height: 1.5;
+            color: #444;
+            text-align: justify;
+            max-width: 800px; /* Adjust the width to your preference */
+            margin: 0 auto;
+        }
+
+    </style>
 </head>
 <body>
-    <h1>To-do List</h1>
-    <form id="todo-form"> 
-        <input type="text" id="todo-input" placeholder="Enter a task..."> <!--Text input line where user will submit tasts-->
-        <button type="submit">Add</button> <!--Submit button for new tasks-->
-    </form>
-    <ul id="todo-list"></ul>
-    <script src="scripts.js"></script>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="todo.html">To-do List</a>
+        <a href="resume.html">Resume</a>
+    </nav>
+    
+    <h1>Matthew Smithers</h1>
+    <p class="intro-text">Thanks for visiting my personal website! Here I hope to showcase my achievements such as my past projects and professional history. Please feel free to check out my resume <a href="resume.html">HERE!</a></p>
 </body>
 </html>
